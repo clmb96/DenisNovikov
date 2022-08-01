@@ -1,0 +1,49 @@
+.mobileMenu {
+    display: none;
+    position: fixed;
+    top: 68px;
+    right: 30px;
+}
+.mobileMenu div{
+    border-bottom: 4px solid black;
+    width: 33px;
+    margin: 5px 0;
+}
+
+
+.mobIMG{
+    display: none;
+}
+
+@media screen and (max-width:680px) {
+  
+    nav{
+        display: none;
+    }
+    .mobileMenu  {  
+        display: block;
+    }
+    .top_text{
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    .mobIMG{
+        display: block;
+    }
+    .compIMG{
+        display: none;
+    }
+ 
+    .C_skills_m{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .C_skills_m .w170{
+        margin: 40px 0;
+    }
+    .C_language {
+        display: none;
+    }
+
+}

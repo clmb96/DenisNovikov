@@ -1,0 +1,94 @@
+/* flex */
+.flexC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fBeetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fWrap {
+    flex-wrap: wrap;
+}
+
+/* width */
+.maxW945 {
+    /* background-color: brown; */
+    max-width: 945px;
+    width: 100%;
+    /* height: 100px; */
+}
+
+.w170 {
+    width: 170px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.maxW500{
+    max-width: 485px;
+}
+.maxW550 {
+    max-width: 550px;
+}
+
+/* Bg */
+.bgF6 {
+    background: #F6F6F6;
+}
+
+.bgGreen {
+    background: green;
+}
+
+.bgR {
+    background: red;
+}
+
+/* padding */
+.p30{
+    padding: 0 30px;
+}
+/* elem  */
+
+.w100_bgF6 {
+    width: 100%;
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forH2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+.forP1 {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.forP2 {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}

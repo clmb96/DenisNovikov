@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+
+
+
+
+header{
+   width: 100%; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282
+
+}
+nav a{
+    text-decoration: none;
+}
+/* header end */
+
+.top_text{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.denis{
+   max-width:123px ;
+}
+.top_img p{
+    max-width: 155px;
+    /* margin: 0 20px; */
+}
+.C_language {
+   
+    transform: translate(22px, 0px) rotateZ(90deg);
+}
+.top_img img{
+    width: 100%;
+    margin: 45px 0px 90px 0px;
+}
+
+
+
+.skills_box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 166px;
+    height: 206px;
+    border: 3px solid black;
+}
+
+.hoverFill svg:hover path{
+    fill: #070707;
+}
+
+
+
+.G_C_footer h2{
+    margin: 0;
+    margin-top: 114px;
+}
+.G_C_footer h4{
+    margin: 0;
+    margin-top: 24px;
+}
+.G_C_footer h5{
+    margin: 0;
+   margin-bottom: 30px;
+}
+.G_C_footer input{
+    margin-bottom: 90px;
+}
+.G_C_footer p{
+    margin: 0;
+}
+.footer_boxImg{
+    margin-bottom: 45px;
+}
+
+.SkillsDiv h1{
+    margin: 0;
+    margin-top: 90px;
+    }
+.SkillsDiv p{
+margin: 0;
+margin-top: 70px;
+}
+.C_skills_m{
+    margin-bottom: 110px;
+    margin-top: 70px;
+}
+
+
+.C_Por_img p{
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.maxW945 h2{
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+padding {
+    padding: 32px ;
+    /* top left right bottom */
+    padding: 32px 0;
+    /* (top   bottom )  (left right)*/
+    padding: 32px 0 32px 0;
+    /* top  right bottom left */
+}
